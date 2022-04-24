@@ -1,0 +1,6 @@
+# Modes: 1) depth, 2) single_rgb, 3) multi_rgb
+train_mode: "multi_rgb"
+test_mode: "multi_rgb"
+
+# Test types: 1) sequential, 2) random
+test_type: "random"

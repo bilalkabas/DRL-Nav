@@ -164,7 +164,11 @@ Make sure you followed the instructions above to setup the environment.
 
 Go to the [releases](https://github.com/bilalkabas/DRL-Nav/releases) and download `TrainEnv.zip`. After downloading completed, extract it.
 
-#️⃣ **2. Now, you can open up environment's executable file and start the training**
+#️⃣ **2. You can change the training mode to produce model outputs for different input types**
+
+In the main project directory, go to [`config.yml`](/config.yml). Here you can change the training mode to `depth`, `single_rgb`, or `multi_rgb`.
+
+#️⃣ **3. Now, you can open up environment's executable file and start the training**
 
 So, inside the repository
 ```
@@ -178,8 +182,11 @@ Make sure you followed the instructions above to setup the environment. To speed
 
 Go to the [releases](https://github.com/bilalkabas/DRL-Nav/releases) and download `TestEnv.zip`. After downloading completed, extract it.
 
+#️⃣ **2. Change the test mode**
 
-#️⃣ **2. Now, you can open up environment's executable file and run the trained model**
+In [`config.yml`](/config.yml), you can change the test mode to `depth`, `single_rgb`, or `multi_rgb`. This should match the input type that the model was trained with. In the same config file, you can change the test type to `sequential` or `random`.
+
+#️⃣ **3. Now, you can open up environment's executable file and run the trained model**
 
 So, inside the repository
 ```

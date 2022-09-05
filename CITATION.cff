@@ -1,7 +1,11 @@
-@INPROCEEDINGS{9864769,  
-author={Kabas, Bilal},  
-booktitle={2022 30th Signal Processing and Communications Applications Conference (SIU)},   
-title={Autonomous UAV Navigation via Deep Reinforcement Learning Using PPO},   
-year={2022},  
-pages={1-4},  
-doi={10.1109/SIU55565.2022.9864769}}
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Kabas"
+  given-names: "Bilal"
+title: "Autonomous UAV Navigation via Deep Reinforcement Learning Using PPO"
+journal: 2022 30th Signal Processing and Communications Applications Conference (SIU)
+doi: 10.1109/SIU55565.2022.9864769
+year: 2022
+start: 1
+end: 4

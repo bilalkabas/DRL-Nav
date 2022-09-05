@@ -193,6 +193,18 @@ So, inside the repository
 python inference.py
 ```
 
+## Citation
+
+```
+@INPROCEEDINGS{9864769,  
+author={Kabas, Bilal},  
+booktitle={2022 30th Signal Processing and Communications Applications Conference (SIU)},   
+title={Autonomous UAV Navigation via Deep Reinforcement Learning Using PPO},   
+year={2022},  
+pages={1-4},  
+doi={10.1109/SIU55565.2022.9864769}}
+```
+
 ## Author
 
 - [Bilal Kabas](https://github.com/bilalkabas)

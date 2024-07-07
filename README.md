@@ -38,7 +38,7 @@ There are three models trained using depth, single RGB, and stacked gray images,
 ### Actions
 There are two actions:
 
-<img src="https://render.githubusercontent.com/render/math?math=v_{y,t}, v_{z,t} \in [-0.6, 0.6] \quad m/s">
+![equation](https://github.com/bilalkabas/DRL-Nav/assets/53112883/947fc022-e868-40f6-b7cc-9493e5197724)
 
 <p align="left">
   <img src="figures/actions.png" width="300" />
